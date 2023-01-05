@@ -5,6 +5,11 @@
   "main": "app.js",
   "publishConfig": {
     "registry": "http://3.93.232.130:8081/repository/npm-private/"
+    email=chimeziefirst@gmail.com
+npm adduser --registry=http://3.93.232.130:8081/repository/npm-private/
+echo -n 'scofield007:Chiamaka2008*' | openssl base64
+##always-auth=true
+allowRepublish=true
   },
   "scripts": {
     "server": "http-server -c-1 -p 9999",
